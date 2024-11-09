@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+    font-size: 1.5vw;
+}
+form{
+    max-width: 60vw;
+    margin: 2vh auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

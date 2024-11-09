@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztrálás</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Regisztrálás</h1>
+    <form action="http://localhost:3000/register" method="post" enctype="application/x-www-form-urlencoded">
+        <p><input type="text" name="username" placeholder="Felhasználónev" value="admin" required></p>
+        <p><input type="email" name="email" placeholder="email cím" value="admin@valahol.com" required></p>
+        <p><input type="password" name="password" placeholder="Jelszó" value="admin" required></p>
+        <p><input type="password" name="password2" placeholder="Jelszó" value="admin" required></p>
+        <p><input type="submit" value="Regisztrálás"></p>
+    </form>
+</body>
+</html>
